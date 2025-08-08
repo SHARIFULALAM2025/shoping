@@ -1,0 +1,455 @@
+/* google font add */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.noto_serif_font{
+  font-family: "Noto Serif";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter_font {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common style */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_text{
+    color: #8987A1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav_text2{
+    color: #252432;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav_cart_text{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+figure img{
+    max-width:100%;
+    display: block;
+    
+}
+/* general style */
+.nav_btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   /* margin: 16px; */
+   
+}
+.logo{
+    font-size: x-large;
+    font-weight: bolder;
+    color: green;
+}
+.nav_style  ul{
+    list-style: none;
+   
+
+}
+.nav_style, .cart_btn{
+    display: flex;
+    gap: 10px;
+   
+}
+.nav_style li{
+   display: flex;
+   gap: 48px;
+}
+.nav_style{
+    display: flex;
+    gap: 48px;
+}
+.nav_style  a{
+    text-decoration: none;
+}
+@media (max-width:576px) {
+     .list_item{
+        display: none;
+    }
+    figure img{
+    max-width:100%;
+    display: block;
+   }
+   .nav_btn{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+   }
+  
+}
+/* main section start here */
+.Brands{
+    width: 50%;
+}
+.shop{
+    width: 100%;
+    height: auto;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.hero_text{
+    font-size: 4.063rem;
+    font-weight: 700px;
+
+}
+.text{
+    color: #E95A08;
+}
+.para{
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+@media (max-width:576px) {
+    .hero_section{
+        flex-direction: column-reverse;
+        padding: 12px;
+    }
+    figure img{
+    max-width:100%;
+    display: block;
+   }
+   .hero_text{
+    font-size: 2.5rem;
+    font-weight: 500px;
+
+   }
+   .para{
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+/* plants */
+.plants{
+    text-align: center;
+    margin-top: 120px;
+}
+.Our{
+  font-size: 3.125rem;
+    color: #E95A08;
+    font-weight: 700;
+}
+#senses{
+    color: #000000;
+font-size: 3.125rem;
+font-weight: 700;
+   
+}
+.flower_shop{
+    font-size: 1.373;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower_shop{
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+.flower_text_1{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+.lily_text{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top:  1.875rem;
+    margin-bottom: 1.25rem;
+}
+#lily_btn{
+    padding: 26px 50px;
+    background-color: #E95A08;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.lily_btn_text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nice_flower{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 45px;
+}
+/* responsive mobile */
+@media (max-width:576px) {
+    .nice_flower{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 12px;
+    }
+    .lily_text{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top:  1.575rem;
+    margin-bottom: 1.5rem;
+}
+#lily_btn{
+    padding: 8px 10px;
+    background-color: #E95A08;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 1.575rem;
+    margin-bottom: 1.575rem;
+}
+
+}
+
+/*  */
+.beauty{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 120px;
+    gap: 60px;
+}
+.fresh{
+    position: relative;
+    display: inline-block;
+}
+.main_img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fun_img{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    max-width: 286px;
+   
+}
+.Lover_text{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+.para_lover{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 1.375rem;
+    padding: 20px;
+}
+@media (max-width:576px){
+    .beauty{
+          grid-template-columns: repeat(1, 1fr);
+          gap: 0;
+          padding: 12px;
+
+    }
+    .fun_img{
+        display: none;
+    }
+}
+/* Latest  Deals */
+.Latest{
+    text-align: center;
+    margin-top: 130px;
+}
+@media (max-width:576px){
+    .Latest{
+        padding: 12px;
+    }
+}
+
+/* zabo */
+.bloom{
+    background-image: url('../assets/img.png');
+    max-width: 366.22px;
+    height: 206px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.shop_now{
+  
+     color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700; 
+}
+.now_1{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600px;
+}
+.ana{
+    background-image: url('../assets/t-hart.png');
+    max-width: 366.22px;
+    height: 206px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.zab{
+    background-image: url('../assets/img-6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:753px;
+    height: 423.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 12px;
+    text-align: center;
+}
+.Bloom_Plant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+}
+.text_5{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.text_6{
+    font-size: 1.75rem;
+    color:#FFFFFF ;
+    font-weight: 700;
+    
+}
+@media (max-width:576px){
+    .Bloom_Plant{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 12px;
+    }
+    .zab{
+        width: 100%;
+        height:423.13px ;
+    }
+   
+}
+/*Join the colorful Bunch  */
+.colorful{
+    background-image: url('../assets/banner.png');
+    max-width: 1440px;
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Join{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+ form input{
+    padding: 8px 20px;
+    width: 300px;
+    max-width: 100%;
+    border: none;
+ }
+ form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+ }
+ .button_form{
+    padding: 8px 20px;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: rgb(255, 255, 255);
+   
+ }
+ .button_form, :focus{
+    outline: none;
+ }
+ @media (max-width:576px){
+   .colorful{
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+   }
+   form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+   .Join{
+    font-size: 1.55rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+form input{
+    padding: 8px 20px;
+    /* width: 300px; */
+    max-width: 100%;
+    border: none;
+ }
+
+ }
+ /* footer_section */
+ .footer_section{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* place-items: center; */
+ }
+ .fast_list{
+    list-style: none;
+ }
+ .fast_list, a{
+    text-decoration: none;
+    color: #6B7280;
+ }
+ .fast_list, .fast_list_1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+ }
+ .foot_img{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+   
+ }
+ .foot_text{
+    color: rgba(0, 0, 0, 0.50);
+ }
+ @media (max-width:576px) {
+    .footer_section{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+    .foot1{
+        margin-top:30px;
+    }
+ }
